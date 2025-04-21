@@ -1,0 +1,842 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "    This is a test scenario to visit a website",
+        "id": "feature_web-navigation---product-x-brand-a;xa_tc_03_01_test-website-navigation---critical-test",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "XA_TC_03_01_Test website navigation - Critical test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 229651799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I navigate to \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "location": "steps\\given.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2626812400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see button role element with text \"Open Menu\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 245200,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'getByRole')\n    at World.<anonymous> (D:\\playwright\\allurejs.cucumberjs.playwright.github\\src\\e2e\\steps\\then.steps.ts:24:23)\n    at D:\\playwright\\allurejs.cucumberjs.playwright.github\\src\\e2e\\steps\\then.steps.ts:8:71\n    at __awaiter (D:\\playwright\\allurejs.cucumberjs.playwright.github\\src\\e2e\\steps\\then.steps.ts:4:12)\n    at World.<anonymous> (D:\\playwright\\allurejs.cucumberjs.playwright.github\\src\\e2e\\steps\\then.steps.ts:27:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68516499
+            },
+            "embeddings": [
+              {
+                "data": "",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@product-x",
+            "line": 3
+          },
+          {
+            "name": "@brand-a",
+            "line": 4
+          },
+          {
+            "name": "@allure.label.owner:ShiyamJannan",
+            "line": 5
+          },
+          {
+            "name": "@allure.label.parentSuite:ProductX",
+            "line": 6
+          },
+          {
+            "name": "@allure.label.suite:BrandA",
+            "line": 7
+          },
+          {
+            "name": "@allure.label.severity:critical",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "    This is a test scenario to visit a website",
+        "id": "feature_web-navigation---product-x-brand-a;xa_tc_03_01_test-website-navigation---critical-test1",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "XA_TC_03_01_Test website navigation - Critical test1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 229651799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I navigate to \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "location": "steps\\given.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2626812400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see button role element with text \"Open Menu\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 245200,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'getByRole')\n    at World.<anonymous> (D:\\playwright\\allurejs.cucumberjs.playwright.github\\src\\e2e\\steps\\then.steps.ts:24:23)\n    at D:\\playwright\\allurejs.cucumberjs.playwright.github\\src\\e2e\\steps\\then.steps.ts:8:71\n    at __awaiter (D:\\playwright\\allurejs.cucumberjs.playwright.github\\src\\e2e\\steps\\then.steps.ts:4:12)\n    at World.<anonymous> (D:\\playwright\\allurejs.cucumberjs.playwright.github\\src\\e2e\\steps\\then.steps.ts:27:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68516499
+            },
+            "embeddings": [
+              {
+                "data": "",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@product-x",
+            "line": 3
+          },
+          {
+            "name": "@brand-a",
+            "line": 4
+          },
+          {
+            "name": "@allure.label.owner:ShiyamJannan",
+            "line": 5
+          },
+          {
+            "name": "@allure.label.parentSuite:ProductX",
+            "line": 6
+          },
+          {
+            "name": "@allure.label.suite:BrandA",
+            "line": 7
+          },
+          {
+            "name": "@allure.label.severity:critical",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature_web-navigation---product-x-brand-a",
+    "line": 9,
+    "keyword": "Feature",
+    "name": "Feature_Web Navigation - Product X Brand A",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@product-x",
+        "line": 3
+      },
+      {
+        "name": "@brand-a",
+        "line": 4
+      },
+      {
+        "name": "@allure.label.owner:ShiyamJannan",
+        "line": 5
+      },
+      {
+        "name": "@allure.label.parentSuite:ProductX",
+        "line": 6
+      },
+      {
+        "name": "@allure.label.suite:BrandA",
+        "line": 7
+      },
+      {
+        "name": "@allure.label.severity:critical",
+        "line": 8
+      }
+    ],
+    "uri": "features\\product-x\\brand-a\\productX_brandA_tc03.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "    This is a test scenario to visit a website",
+        "id": "feature_web-navigation---product-x-brand-b;website-navigation---minor-test",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "website navigation - Minor test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 271521199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I navigate to \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "location": "steps\\given.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2635192100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see title as \"OrangeHRM\"",
+            "match": {
+              "location": "steps\\then.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6205099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65342199
+            },
+            "embeddings": [
+              {
+                "data": "",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@product-x",
+            "line": 3
+          },
+          {
+            "name": "@brand-b",
+            "line": 4
+          },
+          {
+            "name": "@allure.label.owner:ShiyamJannan",
+            "line": 5
+          },
+          {
+            "name": "@allure.label.parentSuite:ProductX",
+            "line": 6
+          },
+          {
+            "name": "@allure.label.suite:BrandB",
+            "line": 7
+          },
+          {
+            "name": "@allure.label.severity:minor",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature_web-navigation---product-x-brand-b",
+    "line": 9,
+    "keyword": "Feature",
+    "name": "Feature_Web Navigation - Product X Brand B",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@product-x",
+        "line": 3
+      },
+      {
+        "name": "@brand-b",
+        "line": 4
+      },
+      {
+        "name": "@allure.label.owner:ShiyamJannan",
+        "line": 5
+      },
+      {
+        "name": "@allure.label.parentSuite:ProductX",
+        "line": 6
+      },
+      {
+        "name": "@allure.label.suite:BrandB",
+        "line": 7
+      },
+      {
+        "name": "@allure.label.severity:minor",
+        "line": 8
+      }
+    ],
+    "uri": "features\\product-x\\brand-b\\productX_brandB_tc03.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "    This is a test scenario to visit a website",
+        "id": "feature_web-navigation---product-y-brand-a;ya_tc_02_01_test-website-navigation---critical-test",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "YA_TC_02_01_Test website navigation - Critical test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 263668200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I navigate to \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "location": "steps\\given.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2613246800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 97147500
+            },
+            "embeddings": [
+              {
+                "data": "",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@product-y",
+            "line": 3
+          },
+          {
+            "name": "@brand-a",
+            "line": 4
+          },
+          {
+            "name": "@allure.label.owner:ShiyamJannan",
+            "line": 5
+          },
+          {
+            "name": "@allure.label.parentSuite:ProductY",
+            "line": 6
+          },
+          {
+            "name": "@allure.label.suite:BrandA",
+            "line": 7
+          },
+          {
+            "name": "@allure.label.severity:critical",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature_web-navigation---product-y-brand-a",
+    "line": 8,
+    "keyword": "Feature",
+    "name": "Feature_Web Navigation - Product Y Brand A",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@product-y",
+        "line": 3
+      },
+      {
+        "name": "@brand-a",
+        "line": 4
+      },
+      {
+        "name": "@allure.label.owner:ShiyamJannan",
+        "line": 5
+      },
+      {
+        "name": "@allure.label.parentSuite:ProductY",
+        "line": 6
+      },
+      {
+        "name": "@allure.label.suite:BrandA",
+        "line": 7
+      }
+    ],
+    "uri": "features\\product-y\\brand-a\\productY_brandA_tc02.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "    This is a test scenario to visit a website",
+        "id": "feature_web-navigation---product-y-brand-b;yb_tc_01_01_test-website-navigation---critical-test",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "YB_TC_01_01_Test website navigation - Critical test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 344483400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I navigate to \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "location": "steps\\given.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2610125700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 86792199
+            },
+            "embeddings": [
+              {
+                "data": "",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 2
+          },
+          {
+            "name": "@product-y",
+            "line": 3
+          },
+          {
+            "name": "@brand-b",
+            "line": 4
+          },
+          {
+            "name": "@allure.label.owner:ShiyamJannan",
+            "line": 5
+          },
+          {
+            "name": "@allure.label.parentSuite:ProductY",
+            "line": 6
+          },
+          {
+            "name": "@allure.label.suite:BrandB",
+            "line": 7
+          },
+          {
+            "name": "@allure.label.severity:critical",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature_web-navigation---product-y-brand-b",
+    "line": 8,
+    "keyword": "Feature",
+    "name": "Feature_Web Navigation - Product Y Brand B",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@product-y",
+        "line": 3
+      },
+      {
+        "name": "@brand-b",
+        "line": 4
+      },
+      {
+        "name": "@allure.label.owner:ShiyamJannan",
+        "line": 5
+      },
+      {
+        "name": "@allure.label.parentSuite:ProductY",
+        "line": 6
+      },
+      {
+        "name": "@allure.label.suite:BrandB",
+        "line": 7
+      }
+    ],
+    "uri": "features\\product-y\\brand-b\\productY_brandB_tc01.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sauce-demo-site-login;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 325178700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "steps\\given.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 727689800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see locator \"[data-test=\\\"username\\\"]\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46180500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see locator \"[data-test=\\\"password\\\"]\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3751900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should see locator \"[data-test=\\\"login-button\\\"]\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3333500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I fill \"standard_user\" locator with \"[data-test=\\\"username\\\"]\"",
+            "match": {
+              "location": "steps\\when.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18906000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see locator \"[data-test=\\\"username\\\"]\" toHaveValue as \"standard_user\"",
+            "match": {
+              "location": "steps\\then.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9778600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I fill \"secret_sauce\" locator with \"[data-test=\\\"password\\\"]\"",
+            "match": {
+              "location": "steps\\when.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12769699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click locator \"[data-test=\\\"login-button\\\"]\"",
+            "match": {
+              "location": "steps\\when.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238270900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see button role element with text \"Open Menu\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10943299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click button role element with text \"Open Menu\"",
+            "match": {
+              "location": "steps\\when.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164732100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see button role element with text \"Close Menu\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3926199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see locator \"[data-test=\\\"logout-sidebar-link\\\"]\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3961699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click locator \"[data-test=\\\"logout-sidebar-link\\\"]\"",
+            "match": {
+              "location": "steps\\when.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 728420200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see locator \"[data-test=\\\"login-button\\\"]\" tobeVisible",
+            "match": {
+              "location": "steps\\then.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3566699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64737199
+            },
+            "embeddings": [
+              {
+                "data": "",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "sauce-demo-site-login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Sauce Demo Site login",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "features\\saucedemo.login.feature"
+  }
+]
