@@ -4,11 +4,9 @@ import {
   Card,
   CardBody,
   CardFooter,
-  CardHeader,
   Heading,
   Stack,
   Table,
-  TableContainer,
   Tbody,
   Td,
   Tfoot,
@@ -20,7 +18,6 @@ import {
   HStack,
 } from '@chakra-ui/react'
 import { TestSummary } from '../Constants'
-import { s } from 'framer-motion/client'
 
 interface ReportSummaryWidgetProps {
   summary: TestSummary
